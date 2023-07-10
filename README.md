@@ -31,15 +31,15 @@ Extrinsic Params  | Keyboard_input	  | Extrinsic Params	  | Keyboard_input
  +fy  | i | -fy | k |  
  +fx  | u | -fx | j |  
 
-`<Intensity Color>`: LiDAR intensity is recorded as the return strength of a laser beam, partly based on the reflectivity of the object struck by the laser pulse. This button can change the display mode to intensity map display mode. This can help to check if the ground lane lines are aligned.
+`Intensity Color`: LiDAR intensity is recorded as the return strength of a laser beam, partly based on the reflectivity of the object struck by the laser pulse. This button can change the display mode to intensity map display mode. This can help to check if the ground lane lines are aligned.
 
-`<Overlap Filter>`: Eliminate overlap Lidar points within a depth of 0.4m.
+`Overlap Filter`: Eliminate overlap Lidar points within a depth of 0.4m.
 
-`<deg step t step>`: fxfy scale : These three buttons change the adjustment step for every click or keyboard input.
+`deg step t step`: fxfy scale : These three buttons change the adjustment step for every click or keyboard input.
 
-`<point size>`: Adjust the size of Lidar points in the projection image.
+`point size`: Adjust the size of Lidar points in the projection image.
 
-`<Reset>`: Press button to reset all manual adjustment.
+`Reset`: Press button to reset all manual adjustment.
 
-`<Save Image>`: If the this button was pressed, the results (calibrated image, extrinsic and intrinsic matrix) are stored by default at running directory ~./manual_calib/:
+`Save Image`: If the this button was pressed, the results (calibrated image, extrinsic and intrinsic matrix) are stored by default at running directory ~./manual_calib/:
 # pcdvisual
