@@ -30,5 +30,4 @@ Extrinsic Params  | Keyboard_input	  | Extrinsic Params	  | Keyboard_input
  ---- | ----- | ------ | ------  
  + fy  | i | - fy | k |  
  + fx  | u | - fx | j |  
-
 # pcdvisual
