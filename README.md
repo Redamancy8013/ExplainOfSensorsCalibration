@@ -9,7 +9,7 @@ This project is another open source project on github SensorCalibration in lidar
 # SensorCalibration
 In this section, you can get a rough extrinsic parameter by means of manual calibration.   
 ## 1. Four input files:  
-You need to play back the bag file in that link with the rosbag command to get the point cloud information and image information needed for that node. Intrinsic parameter and extrinsic parameter for initialization are in the data  folder. You should download them to the appropriate path, and modify the relevant path in the cpp source code in the src folder.  
+You need to play back the bag file in that link with the rosbag command to get the point cloud information and image information needed for that node. Intrinsic parameter and extrinsic parameter for initialization are in the data folder. You should download them to the appropriate path, and modify the relevant path in the cpp source code in the src folder.  
  * intrinsic_json: Camera intrinsic parameter JSON file  
  * extrinsic_json: JSON file of initial values of extrinsic parameters between sensors  
 ## 2. Run the test sample:
@@ -46,3 +46,8 @@ Extrinsic Params  | Keyboard_input	  | Extrinsic Params	  | Keyboard_input
 **For the impact of different operations on the value of the final extrinsic parameter, please refer to /SensorCalibration/manual_change_extrinsic.docx, it gives the calculation method of the extrinsic parameters in the iteration process**
 
 # pcdvisual
+In this section, you can crop the point cloud map so that only specific parts of the point cloud information are retained.
+## 1. Four input files:  
+You need to play back the bag file in that link with the rosbag command to get the point cloud information needed for that node. Extrinsic parameter for initialization are in the data folder.  
+## 2. Run the test sample:  
+You need to open two terminals, the first terminal is used to run the ROS node, when the first node starts, open the second terminal to play back the bag file. If you use the data in this project, you will get the following results：  
