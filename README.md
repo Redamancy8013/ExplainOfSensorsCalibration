@@ -19,6 +19,12 @@ The calibration window consists of the left control panel for manual calibration
 
 Extrinsic Params  | Keyboard_input	  | Extrinsic Params	  | Keyboard_input  
  ---- | ----- | ------ | ------  
- 单元格内容  | 单元格内容 | 单元格内容 |  
- 单元格内容  | 单元格内容 | 单元格内容 |  
+ +x degree  | q | -x degree | a |  
+ +y degree  | w | -y degree | s |  
+ +z degree  | e | -z degree | d |  
+ +x trans  | r | -x trans | f |  
+ +x trans  | t | -y trans | g |  
+ +x trans  | y | -z trans | h |  
+
+ 
 # pcdvisual
