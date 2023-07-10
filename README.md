@@ -28,6 +28,6 @@ Extrinsic Params  | Keyboard_input	  | Extrinsic Params	  | Keyboard_input
 
  Intrinsic Params  | Keyboard_input	  | Intrinsic Params	  | Keyboard_input  
  ---- | ----- | ------ | ------  
- + fy  | i | - fy | k |  
- + fx  | u | - fx | j |  
+ +x trans  | t | -y trans | g |  
+ +x trans  | y | -z trans | h |  
 # pcdvisual
