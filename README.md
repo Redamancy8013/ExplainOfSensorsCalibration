@@ -14,7 +14,7 @@ You need to play back the bag file in that link with the rosbag command to get t
  * extrinsic_json: JSON file of initial values of extrinsic parameters between sensors  
 ## 2. Run the test sample:
 You need to open two terminals, the first terminal is used to run the ROS node, when the first node starts, open the second terminal to play back the bag file.If you use the data in this project, you will get the following results：  
-![Maunal_cali_result](https://github.com/Redamancy8013/ExplainOfSensorsCalibration/tree/main/SensorCalibration/manual_cali_result.png)    
+![Maunal_cali_result](https://github.com/Redamancy8013/ExplainOfSensorsCalibration/tree/main/SensorCalibration/manual_cali_result.jpg)    
 **This picture is only one frame out of all results**  
 ## 3. Calibration panel:
 The calibration window consists of the left control panel for manual calibration and the right point cloud projection image. Users can check whether the points cloud and the image are aligned by clicking the corresponding button in the panel or using Keyboard as input to adjust the extrinsic parameter. When the points cloud and the image are aligned, the calibration ends, click the save button to save the result.
