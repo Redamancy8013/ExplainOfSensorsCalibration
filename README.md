@@ -52,3 +52,4 @@ You need to play back the bag file in that link with the rosbag command to get t
 ## 2. Run the test sample:  
 You need to open two terminals, the first terminal is used to run the ROS node, when the first node starts, open the second terminal to play back the bag file. If you use the data in this project, you will get the following results：  
 ![Pointcloud_cut](https://github.com/Redamancy8013/ExplainOfSensorsCalibration/tree/main/pcdvisual/Pointcloud_cut.png)
+**This picture is only one frame out of all results**
