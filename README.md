@@ -55,3 +55,9 @@ You need to play back the bag file in that link with the rosbag command to get t
 You need to open two terminals, the first terminal is used to run the ROS node, when the first node starts, open the second terminal to play back the bag file. If you use the data in this project, you will get the following results：  
 ![Pointcloudvisual_result](https://github.com/Redamancy8013/ExplainOfSensorsCalibration/tree/main/pcdvisual/Pointcloud_cut.png)  
 **This picture is only one frame out of all results**
+
+# DnetExample
+This part uses the dent library instead of ros to publish and receive messages. We only provide the code of the receiver here. If you want to use it, you need to use dqt to play back the bag data  
+## Additional prerequisites  
+ * dnet
+ * dqt
