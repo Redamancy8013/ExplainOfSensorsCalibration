@@ -61,14 +61,37 @@ This part uses the dnet library instead of ros to publish and receive messages. 
 ## Additional prerequisites  
  * dnet  
  * dqt
-## How to build
-Open the terminal in the directory /DnetExample/.Run the following command.
-mkdir build
-cd build
-cmake ..
-make
+## Before building  
+Modify the /DnetExample/src/lidar_camera/CMakeLists.txt  
+In the sentense 'SET(ALL_PROJECT_TOPLEVEL_PATH "/home/easycool/project/dnet/${PROJECT_NAME}/")', modify the path '/home/easycool/project/dnet/${PROJECT_NAME}/' to your project path.  
+Modify the /DnetExample/src/lidar_camera/receive_module.cpp  
+On the line 231, modify the path '/home/easycool/project/config/center_camera-intrinsic.json' to the path where you save the center_camera-intrinsic.json.  
+On the line 232, modify the path '/home/easycool/project/config/top_center_lidar-to-center_camera-extrinsic.json' to the path where you save the top_center_lidar-to-center_camera-extrinsic.json.  
+## How to build  
+Open the terminal in the directory /DnetExample/src/lidar_camera.  
+Run the following command:
+mkdir build  
+cd build  
+cmake ..  
+make  
+Then two executable files: lidar_camera, lidar_receive will be generated in the directory /DnetExample/bin.  
 
-
+Open the terminal in the directory /dqt_bag.  
+Run the following command:  
+mkdir build  
+cd build  
+cmake ..  
+make  
+Then an executable file: dqt_bag will be generated in the directory /dqt/build.  
+## Run the test sample:  
+Put the data folder in the appropriate path.
+Open Terminal in the directory /dqt_bag/build. Run the following command:  
+./dqt_bag  
+In the visualization window, click the file button and select the data in the data folder. For example, select /data/path_return_2022-06-29-10-43-05.  
+Open another terminal in the directory /DnetExample/bin. Run the following command:  
+./lidar_camera  
+Then, click the buttom: open panel and select the option of Camera. Click the bottom: start/stop.
+The calibration window will be displayed. The operation method is shown above.
 
 
 
