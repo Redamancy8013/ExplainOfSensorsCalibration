@@ -63,9 +63,13 @@ This part uses the dnet library instead of ros to publish and receive messages. 
  * dqt
 ## Before building  
 Modify the /DnetExample/src/lidar_camera/CMakeLists.txt  
+  
 In the sentense `SET(ALL_PROJECT_TOPLEVEL_PATH "/home/easycool/project/dnet/${PROJECT_NAME}/")`, modify the path `/home/easycool/project/dnet/${PROJECT_NAME}/` to your project path.  
+  
 Modify the /DnetExample/src/lidar_camera/receive_module.cpp  
+  
 On the line 231, modify the path `/home/easycool/project/config/center_camera-intrinsic.json` to the path where you save the center_camera-intrinsic.json.  
+  
 On the line 232, modify the path `/home/easycool/project/config/top_center_lidar-to-center_camera-extrinsic.json` to the path where you save the top_center_lidar-to-center_camera-extrinsic.json.  
 ## How to build  
 Open the terminal in the directory /DnetExample/src/lidar_camera.  
