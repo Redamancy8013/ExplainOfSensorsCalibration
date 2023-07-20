@@ -72,7 +72,7 @@ On the line 231, modify the path `/home/easycool/project/config/center_camera-in
   
 On the line 232, modify the path `/home/easycool/project/config/top_center_lidar-to-center_camera-extrinsic.json` to the path where you save the top_center_lidar-to-center_camera-extrinsic.json.  
 ## How to build  
-Open the terminal in the directory /DnetExample/src/lidar_camera.  
+Open the terminal in the directory `/DnetExample/src/lidar_camera`.  
 Run the following command:
 ```
 mkdir build  
@@ -80,9 +80,9 @@ cd build
 cmake ..  
 make
 ```
-Then two executable files: lidar_camera, lidar_receive will be generated in the directory /DnetExample/bin.  
+Then two executable files: lidar_camera, lidar_receive will be generated in the directory `/DnetExample/bin`.  
 
-Open the terminal in the directory /dqt_bag.  
+Open the terminal in the directory `/dqt_bag`.  
 Run the following command:  
 ```
 mkdir build  
@@ -90,7 +90,7 @@ cd build
 cmake ..  
 make
 ```
-Then an executable file: dqt_bag will be generated in the directory /dqt/build.  
+Then an executable file: dqt_bag will be generated in the directory `/dqt/build`.  
 ## Run the test sample:  
 Put the data folder in the appropriate path.
 Open Terminal in the directory /dqt_bag/build. Run the following command:  
