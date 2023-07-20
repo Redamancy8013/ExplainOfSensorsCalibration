@@ -95,8 +95,8 @@ Then an executable file: dqt_bag will be generated in the directory `/dqt/build`
 Put the data folder in the appropriate path.
 Open Terminal in the directory /dqt_bag/build. Run the following command:  
 `./dqt_bag`  
-In the visualization window, click the file button and select the data in the data folder. For example, select /data/path_return_2022-06-29-10-43-05.  
-Open another terminal in the directory /DnetExample/bin. Run the following command:  
+In the visualization window, click the file button and select the data in the data folder. For example, select `/data/path_return_2022-06-29-10-43-05`.  
+Open another terminal in the directory `/DnetExample/bin`. Run the following command:  
 `./lidar_camera`  
 Then, click the buttom: open panel and select the option of Camera. Click the bottom: start/stop.
 The calibration window will be displayed. The operation method is shown above.
