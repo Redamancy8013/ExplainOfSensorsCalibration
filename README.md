@@ -57,7 +57,20 @@ You need to open two terminals, the first terminal is used to run the ROS node, 
 **This picture is only one frame out of all results**
 
 # DnetExample
-This part uses the dent library instead of ros to publish and receive messages. We only provide the code of the receiver here. If you want to use it, you need to use dqt to play back the bag data  
+This part uses the dnet library instead of ros to publish and receive messages. We only provide the code of the receiver here. If you want to use it, you need to use dqt to play back the bag data  
 ## Additional prerequisites  
- * dnet
+ * dnet  
  * dqt
+## How to build
+Open the terminal in the directory /DnetExample/.Run the following command.
+mkdir build
+cd build
+cmake ..
+make
+
+
+
+
+
+
+
