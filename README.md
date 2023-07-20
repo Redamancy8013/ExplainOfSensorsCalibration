@@ -70,10 +70,12 @@ On the line 232, modify the path '/home/easycool/project/config/top_center_lidar
 ## How to build  
 Open the terminal in the directory /DnetExample/src/lidar_camera.  
 Run the following command:
+```
 mkdir build  
 cd build  
 cmake ..  
-make  
+make
+```
 Then two executable files: lidar_camera, lidar_receive will be generated in the directory /DnetExample/bin.  
 
 Open the terminal in the directory /dqt_bag.  
