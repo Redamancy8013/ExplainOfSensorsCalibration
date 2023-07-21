@@ -101,6 +101,9 @@ Open another terminal in the directory `/DnetExample/bin`. Run the following com
 Then, click the buttom: open panel and select the option of Camera. Click the bottom: start/stop.
 The calibration window will be displayed. The operation method is shown above.
 
+# Config
+This section include the intrinsic param and extrinsic param
+
 
 
 
