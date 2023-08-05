@@ -8,7 +8,7 @@ find_package(OpenCV REQUIRED)
 find_package(pcl_conversions REQUIRED)
 find_package(PCL REQUIRED COMPONENTS common visualization io filters)
 
-SET(ALL_PROJECT_TOPLEVEL_PATH "/home/easycool/project/dnet/${PROJECT_NAME}/")
+SET(ALL_PROJECT_TOPLEVEL_PATH "/home/bryan/projects/ExplainOfSensorsCalibration/DnetExample/")
 MESSAGE("ALL_PROJECT_TOPLEVEL_PATH: " ${ALL_PROJECT_TOPLEVEL_PATH})
 
 

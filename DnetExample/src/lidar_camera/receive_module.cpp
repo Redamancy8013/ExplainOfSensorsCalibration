@@ -9,6 +9,7 @@
 #include <errno.h>
 #include <string.h>
 
+#include <thread>
 
 //pangolin
 #include <pangolin/pangolin.h>
@@ -40,9 +41,9 @@
 #include <sys/time.h>
 #include <mutex>
 
-#include "common/extrinsic_param.hpp"
-#include "common/intrinsic_param.hpp"
-#include "common/projector_lidar.hpp"
+#include "../common/extrinsic_param.hpp"
+#include "../common/intrinsic_param.hpp"
+#include "../common/projector_lidar.hpp"
 
 #define  ADDR_OBJECT_DETECT_CAMBRICON_IPC  "ipc:///tmp/ADDR_OBJECT_DETECT_CAMBRICON_IPC"
 #define  ADDR_LIDARDATA_IPC "ipc:///tmp/ADDR_3DLIDARDATA_IPC"
